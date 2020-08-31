@@ -5,7 +5,7 @@ import Burger from '../whiteBurger.png';
 
 function Navbar() {
     return (
-        <nav>
+        <nav id="Navbar">
             <div id="logo">
                 <img src={Logo} alt="logo" />
             </div>

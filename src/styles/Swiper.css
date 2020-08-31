@@ -1,0 +1,11 @@
+.swiper-container {
+    background: white;
+}
+
+.swiper-slide {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}

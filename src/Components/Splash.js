@@ -3,7 +3,7 @@ import '../styles/Splash.css';
 
 function Splash() {
     return (
-        <div id="Splash">
+        <div className="main" id="Splash">
             <div className="splash-header">
                 <h1>Let us build your empire</h1>
                 <p>Tidal Sites offers comprehensive web services at an

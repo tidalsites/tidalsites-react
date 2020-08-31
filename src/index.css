@@ -14,6 +14,11 @@ code {
     monospace;
 }
 
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
 .section-header {
   text-align: center;
   color: white;
@@ -24,4 +29,15 @@ code {
 .section-subheader {
   text-align: center;
   color: white;
+}
+
+@media (min-width: 1000px) {
+  #Navbar {
+    border-bottom: 1px solid white;
+  }
+  
+  .main {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+  }
 }

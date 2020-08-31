@@ -8,7 +8,7 @@ function Services() {
         webDesign: "Before we begin building, we must design! Let us work together to build an inspirational design that shows off your individuality. Tidal Sites believes in mobile-first design and will show off both the mobile version and web version of your vision."
     }
     return (
-        <div id="Services">
+        <div className="main" id="Services">
             <h2 className="section-header">What can we do for you?</h2>
             <div className="service-container">
                 <ServiceItem header="Branding" blurb={blurbs.branding} btnText="Check out our LogoBank" btnAction={() => console.log("Show the LogoBank!")} />

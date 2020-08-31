@@ -21,9 +21,9 @@ function Pricing() {
         }
     }
     return (
-        <div id="Pricing">
+        <div className="main" id="Pricing">
             <h2 className="section-header">Let's talk pricing..</h2>
-            <h4 className="section-subheader">Tidal sites believes in transparent pricing. Knowing the price ahead of time, saves everybody!</h4>
+            <h4 className="section-subheader">We believe in transparent pricing!</h4>
             <div className="packages">
                 <h3>Choose one of our packages</h3>
                 <Package title="Static Website - No support" content={packages.staticNoSupport} />
