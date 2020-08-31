@@ -1,0 +1,7 @@
+#Portfolio .section-content {
+    display: flex;
+    justify-content: center;
+}
+.section-content iframe {
+    height: 800px;
+}

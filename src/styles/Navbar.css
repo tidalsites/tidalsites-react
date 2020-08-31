@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    width: 100%;
+    background: #3337cf;
+    color: white;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo img {
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+}
+
+#navTitle {
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#navTitle p {
+    font-size: 24px;
+    padding: 0;
+    margin: auto;
+}
+
+#burger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}

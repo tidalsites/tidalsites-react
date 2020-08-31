@@ -1,0 +1,9 @@
+.logo-content {
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-content img {
+    height: 100px;
+}

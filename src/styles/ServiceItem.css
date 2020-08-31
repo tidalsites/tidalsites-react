@@ -1,0 +1,18 @@
+.service-item {
+    background: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.service-item p {
+    padding: 20px;
+}
+
+.service-item button {
+    background: #3337cf;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+}
